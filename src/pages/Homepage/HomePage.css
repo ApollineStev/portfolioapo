@@ -82,7 +82,7 @@ nav > img {
 }
 
 #competences > h1 {
-
+    text-align: center;
     width: 15em;
     border-top: solid 10px rgb(55, 101, 142);
     margin-bottom: 0.5em;
@@ -130,11 +130,11 @@ nav > img {
 
 
  #portfolio > h1 {
-    color: rgb(55, 101, 142);
+    color: rgb(217, 228, 237);
     width: 15em;
-    border-top: solid 10px rgb(55, 101, 142);
     margin-bottom: 0.5em;
     padding: 1em;
+    text-align: center;
 }
 
  #portfolio img {
@@ -143,16 +143,20 @@ nav > img {
 
  #portfolio {
     background-color: black;
+    padding-bottom: 3em;
  }
+
+ .carousel-item {}
 
  #contact {
     color:antiquewhite;
     background-color: rgb(19, 18, 18);
-    padding-bottom: 3em;
-    padding-top: 2em;
+    padding-bottom: 4em;
+    padding-top: 3em;
  }
 
  #contact h2 {
+    text-align: center;
     padding-bottom: 1em;
  }
  #contact img {
@@ -167,4 +171,9 @@ nav > img {
 
  .mail {
     width: 40em;
+ }
+
+ .linkgit {
+    display: flex;
+    justify-content: center;
  }

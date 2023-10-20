@@ -129,7 +129,7 @@ function HomePage() {
         <div>
           <p>Vous pouvez également me retrouver sur les sites suivants !</p>
           
-          <div>
+          <div className="linkgit">
               <a href="https://www.linkedin.com/in/stevenin-apolline-b48893246/" target="_blank" rel="noreferrer"><img src='./img/whiteLinkedin.png' alt="linkedin logo"></img></a>
               <a href="https://github.com/ApollineStev" target="_blank" rel="noreferrer"><img src='./img/whiteGithub.png' alt="github logo" /></a>
           </div>
