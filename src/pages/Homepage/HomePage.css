@@ -1,0 +1,170 @@
+* {
+    scroll-padding-top: 2em;
+}
+
+nav {
+    background-color: rgb(21, 3, 122);
+    height: 5em;
+    position: fixed;
+    top: 0;
+    width: 100%;
+
+}
+
+nav  a {
+    text-decoration: none;
+    color: whitesmoke;
+    margin: 15px;
+
+}
+
+nav a:hover {
+    color: rgb(224, 206, 39);
+}
+
+nav > img {
+    width: 4em;
+    margin-top: 0.5em;
+    margin-left: 1.5em;
+}
+
+.navChoices {
+    margin-right: 2em;
+}
+
+
+
+#intro {
+    background-image: url("../HomePage/globe-line-code.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    height: 40em;
+    margin-top: 5em;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: beige;
+    
+}
+
+#intro > h1 {
+    font-size: 3em;
+    margin-bottom: 1em;
+}
+
+#presentation {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: rgb(55, 101, 142);
+    padding: 3em;
+    background-color: rgb(255, 255, 255);
+    
+}
+
+#presentation > p {
+    width: 50em;
+    text-align: left;
+    font-size: 20px;
+}
+
+#presentation > h1 {
+    margin-bottom: 1em;
+}
+
+
+#competences {
+    color: rgb(55, 101, 142);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#competences > h1 {
+
+    width: 15em;
+    border-top: solid 10px rgb(55, 101, 142);
+    margin-bottom: 0.5em;
+    padding: 1em;
+
+}
+
+#compbar {
+   display: flex;
+   justify-content: space-around;
+   text-align: left;
+   padding-bottom: 3em;
+}
+
+#compbar  h5 {
+    padding: 5px 0 ;
+}
+
+.progress {
+    width: 50em;
+}
+ .cv {
+    margin-top: 1em;
+    margin-left: 15em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ }
+
+ .cv > img {
+    width: 23em;
+    border-radius: 10px;
+    
+ }
+
+ .cv > a {
+    text-decoration: none;
+    background-color: rgb(55, 101, 142);
+    color: aliceblue;
+    border-radius: 10px;
+    margin-top: 1em;
+    padding: 15px 20px 3px 20px;
+    text-align: justify;
+ }
+
+
+ #portfolio > h1 {
+    color: rgb(55, 101, 142);
+    width: 15em;
+    border-top: solid 10px rgb(55, 101, 142);
+    margin-bottom: 0.5em;
+    padding: 1em;
+}
+
+ #portfolio img {
+    width: 10em;
+ }
+
+ #portfolio {
+    background-color: black;
+ }
+
+ #contact {
+    color:antiquewhite;
+    background-color: rgb(19, 18, 18);
+    padding-bottom: 3em;
+    padding-top: 2em;
+ }
+
+ #contact h2 {
+    padding-bottom: 1em;
+ }
+ #contact img {
+    width:2em;
+    margin-left: 1em;
+ }
+
+ .contactlink {
+    display: flex;
+    justify-content: space-around;
+ }
+
+ .mail {
+    width: 40em;
+ }
