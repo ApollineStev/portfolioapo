@@ -7,7 +7,7 @@ function Navbar() {
   return (
     <nav className="d-flex justify-content-between align-items-center">
       
-        <img src="./Asterlight.png" alt="logo.png" />
+        <img src="/public/Asterlight.png" alt="logo.png" />
         
       
       <div className="navChoices">

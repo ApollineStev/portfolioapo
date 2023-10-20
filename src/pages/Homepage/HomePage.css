@@ -35,7 +35,7 @@ nav > img {
 
 
 #intro {
-    background-image: url("../HomePage/globe-line-code.jpg");
+    background-image: url("/public/globe-line-code.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     display: flex;
