@@ -1,3 +1,7 @@
 body {
   margin: 0;
 }
+
+.netlogo {
+  border-radius: 50%;
+}
