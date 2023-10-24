@@ -8,6 +8,7 @@ nav {
     position: fixed;
     top: 0;
     width: 100%;
+    overflow: hidden;
 
 }
 
@@ -137,16 +138,44 @@ nav > img {
     text-align: center;
 }
 
- #portfolio img {
-    width: 10em;
- }
+ 
 
  #portfolio {
     background-color: black;
-    padding-bottom: 3em;
+    color: rgb(217, 228, 237);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
  }
 
- .carousel-item {}
+ #portfolio a {
+    text-decoration: none;
+    background-color: rgb(55, 101, 142);
+    color: aliceblue;
+    border-radius: 10px;
+    padding: 10px 15px 10px 15px;
+    text-align: justify;
+    margin-top: 45rem;
+    
+ }
+
+ #portfolio img {
+    border-bottom: 1px solid rgb(231, 229, 229);
+    padding-bottom: 15px;
+ }
+
+ .card {
+    padding: 0.5rem;
+    margin: 50px 6rem;
+ }
+
+ .portgrid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: minmax(100px, auto);
+ }
 
  #contact {
     color:antiquewhite;

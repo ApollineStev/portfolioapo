@@ -81,44 +81,54 @@ function HomePage() {
       </section>
 
       <section id="portfolio">
+
         <h1>Portfolio</h1>
 
+        <div className="portgrid"> 
 
-        <MDBCarousel showControls showIndicators
-        className="d-flex">
-            <MDBCarouselItem
-              className='w-50 '
-              itemId={1}
-              src='./img/portfolio.png'
-              alt='portfolio'
-            >
+          <div className="card" style={{width: "30rem"}}>
+            <img src="/public/img/portfolio.png" alt="portfolio" className="portfolioimg card-img-top"></img>
+            <div className="card-body">
               <h5>Mon portfolio</h5>
               <p>Le site sur lequel vous êtes =)</p>
-            </MDBCarouselItem>
+            </div>
+          </div>
 
-            <MDBCarouselItem
-              className='w-50 '
-              itemId={2}
-              src='./img/portal.png'
-              alt='portal'
-            >
+          <div  className="card" style={{width: "30rem"}}>
+            <img src="/public/img/portal.png" alt='portal' className="portfolioimg card-img-top"></img>
+            <div className="card-body">
               <h5>Portal</h5>
-              <a href="https://portal-project.netlify.app/posts" target="_blank" rel="noreferrer">Accéder au site</a>
-            </MDBCarouselItem>
+              <p>Projet de fin de formation full-stack en pair programming <br></br> (React.js/Node.js/Express.js/MongoDB)</p>
+              <a href="https://portal-project.netlify.app/posts" target="_blank" rel="noreferrer" className="card-link!">Accéder au site</a>
+            </div>
+            
+          </div>
 
-            <MDBCarouselItem
-              className='w-50 '
-              itemId={3}
-              src='./img/ironcookimg.png'
-              alt='portal'
-            >
+          <div  className="card" style={{width: "30rem"}}>
+            <img src="/public/img/ironcookimg.png" alt="ironcook" className="portfolioimg card-img-top"></img>
+            <div  className="card-body">
               <h5>Ironcook</h5>
+              <p>Projet de formation back-end en pair programming <br></br> (Handlebars/Node.js/MongoDB/Express.js)</p>
               <a href="https://splendid-gray-nightingale.cyclic.app/" target="_blank" rel="noreferrer">Accéder au site</a>
-            </MDBCarouselItem>
+            </div>
+            
+          </div>
 
-    </MDBCarousel>
+          <div  className="card" style={{width: "30rem"}}>
+            <video controls >
+              <source src="/public/img/awakening-demo.mp4"></source>
+            </video>
+            <div className="card-body">
+              <h5>The awakening</h5>
+              <p>Projet de formation (HTML/CSS/Javascript)</p>
+            </div>
+            
+          </div>
+        </div>
 
       </section>
+
+
       <section id="contact">
 
       <h2>Me contacter</h2>
