@@ -1,9 +1,5 @@
 import "./HomePage.css";
 import React from "react";
-import {
-  MDBCarousel,
-  MDBCarouselItem,
-} from 'mdb-react-ui-kit';
 
 function HomePage() {
   return (
@@ -87,7 +83,7 @@ function HomePage() {
         <div className="portgrid"> 
 
           <div className="card" style={{width: "30rem"}}>
-            <img src="/public/img/portfolio.png" alt="portfolio" className="portfolioimg card-img-top"></img>
+            <img src="./img/portfolio.png" alt="portfolio" className="portfolioimg card-img-top"></img>
             <div className="card-body">
               <h5>Mon portfolio</h5>
               <p>Le site sur lequel vous êtes =)</p>
@@ -95,7 +91,7 @@ function HomePage() {
           </div>
 
           <div  className="card" style={{width: "30rem"}}>
-            <img src="/public/img/portal.png" alt='portal' className="portfolioimg card-img-top"></img>
+            <img src="./img/portal.png" alt='portal' className="portfolioimg card-img-top"></img>
             <div className="card-body">
               <h5>Portal</h5>
               <p>Projet de fin de formation full-stack en pair programming <br></br> (React.js/Node.js/Express.js/MongoDB)</p>
@@ -105,7 +101,7 @@ function HomePage() {
           </div>
 
           <div  className="card" style={{width: "30rem"}}>
-            <img src="/public/img/ironcookimg.png" alt="ironcook" className="portfolioimg card-img-top"></img>
+            <img src="./img/ironcookimg.png" alt="ironcook" className="portfolioimg card-img-top"></img>
             <div  className="card-body">
               <h5>Ironcook</h5>
               <p>Projet de formation back-end en pair programming <br></br> (Handlebars/Node.js/MongoDB/Express.js)</p>
