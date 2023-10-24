@@ -112,7 +112,7 @@ function HomePage() {
 
           <div  className="card" style={{width: "30rem"}}>
             <video controls >
-              <source src="/public/img/awakening-demo.mp4"></source>
+              <source src="./img/awakening-demo.mp4"></source>
             </video>
             <div className="card-body">
               <h5>The awakening</h5>
