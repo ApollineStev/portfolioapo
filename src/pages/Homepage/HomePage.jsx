@@ -1,7 +1,30 @@
 import "./HomePage.css";
-import React from "react";
+import React, { useRef } from "react";
+import emailjs from "@emailJs/browser";
 
 function HomePage() {
+
+  // code for the email form
+
+  const form = useRef()
+  
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm("service_jsuxjul", "template_1spn5tc", form.current, "gl12dThLzX6kliJtj").then(
+      (result) => {
+        console.log(result.text);
+      },
+      (error) => {
+        console.log(error.text);
+      }
+    );
+
+  }
+
+  // end of code form for email
+
   return (
     <div>
 
@@ -129,9 +152,15 @@ function HomePage() {
 
       <h2>Me contacter</h2>
       <div className="contactlink">
-        <div className="mail">
-          <p>Vous souhaitez me contacter? Dans ce cas vous pouvez m'envoyer un mail à l'adresse <a href="mailto:apollinecanard@gmail.com">apollinecanard@gmail.com</a> et je veillerai à vous répondre dans les plus brefs délais.</p>
-        </div>
+        <form ref={form} onSubmit={sendEmail}>
+      <label>Name</label>
+      <input type="text" name="user_name" />
+      <label>Email</label>
+      <input type="email" name="user_email" />
+      <label>Message</label>
+      <textarea name="message" />
+      <input type="submit" value="Send" />
+    </form>
         <div>
           <p>Vous pouvez également me retrouver sur les sites suivants !</p>
           
