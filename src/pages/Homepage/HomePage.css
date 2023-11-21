@@ -1,208 +1,436 @@
-* {
-    scroll-padding-top: 2em;
-}
-
-nav {
-    background-color: rgb(21, 3, 122);
-    height: 5em;
-    position: fixed;
-    top: 0;
-    width: 100%;
-    overflow: hidden;
-
-}
-
-nav  a {
-    text-decoration: none;
-    color: whitesmoke;
-    margin: 15px;
-
-}
-
-nav a:hover {
-    color: rgb(224, 206, 39);
-}
-
-nav > img {
-    width: 4em;
-    margin-top: 0.5em;
-    margin-left: 1.5em;
-}
-
-.navChoices {
-    margin-right: 2em;
-}
+@media only screen and (max-width: 480px) {
+    body {
+      /* cellphone*/
+    }
+  }
 
 
+  /*tablets*/
 
-#intro {
-    background-image: url("/public/globe-line-code.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    display: flex;
-    height: 40em;
-    margin-top: 5em;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    color: beige;
+
+  @media only screen and (min-width: 481px) and (max-width: 1350px) {
+    * {
+        scroll-padding-top: 2em;
+    }
     
-}
-
-#intro > h1 {
-    font-size: 3em;
-    margin-bottom: 1em;
-}
-
-#presentation {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    color: rgb(55, 101, 142);
-    padding: 3em;
-    background-color: rgb(255, 255, 255);
+    nav {
+        background-color: rgb(21, 3, 122);
+        height: 5em;
+        position: fixed;
+        top: 0;
+        width: 100%;
+        overflow: hidden;
     
-}
-
-#presentation > p {
-    width: 50em;
-    text-align: left;
-    font-size: 20px;
-}
-
-#presentation > h1 {
-    margin-bottom: 1em;
-}
-
-
-#competences {
-    color: rgb(55, 101, 142);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-#competences > h1 {
-    text-align: center;
-    width: 15em;
-    border-top: solid 10px rgb(55, 101, 142);
-    margin-bottom: 0.5em;
-    padding: 1em;
-
-}
-
-#compbar {
-   display: flex;
-   justify-content: space-around;
-   text-align: left;
-   padding-bottom: 3em;
-}
-
-#compbar  h5 {
-    padding: 5px 0 ;
-}
-
-.progress {
-    width: 50em;
-}
- .cv {
-    margin-top: 1em;
-    margin-left: 15em;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
- }
-
- .cv > img {
-    width: 23em;
-    border-radius: 10px;
+    }
     
- }
-
- .cv > a {
-    text-decoration: none;
-    background-color: rgb(55, 101, 142);
-    color: aliceblue;
-    border-radius: 10px;
-    margin-top: 1em;
-    padding: 15px 20px 3px 20px;
-    text-align: justify;
- }
-
-
- #portfolio > h1 {
-    color: rgb(217, 228, 237);
-    width: 15em;
-    margin-bottom: 0.5em;
-    padding: 1em;
-    text-align: center;
-}
-
- 
-
- #portfolio {
-    background-color: black;
-    color: rgb(217, 228, 237);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    nav  a {
+        text-decoration: none;
+        color: whitesmoke;
+        margin: 15px;
     
- }
-
- #portfolio a {
-    text-decoration: none;
-    background-color: rgb(55, 101, 142);
-    color: aliceblue;
-    border-radius: 10px;
-    padding: 10px 15px 10px 15px;
-    text-align: justify;
-    margin-top: 45rem;
+    }
     
- }
+    nav a:hover {
+        color: rgb(224, 206, 39);
+    }
+    
+    nav > img {
+        width: 4em;
+        margin-top: 0.5em;
+        margin-left: 1.5em;
+    }
+    
+    .navChoices {
+        margin-right: 2em;
+    }
+    
+    
+    
+    #intro {
+        background-image: url("/public/globe-line-code.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        display: flex;
+        height: 40em;
+        margin-top: 5em;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        color: beige;
+        
+    }
+    
+    #intro > h1 {
+        font-size: 3em;
+        margin-bottom: 1em;
+    }
+    
+    #presentation {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        color: rgb(55, 101, 142);
+        padding: 3em;
+        background-color: rgb(255, 255, 255);
+        width: 100%;
+        
+    }
+    
+    #presentation > p {
+        width: 50em;
+        text-align: left;
+        font-size: 20px;
+    }
+    
+    #presentation > h1 {
+        margin-bottom: 1em;
+    }
+    
+    
+    #competences {
+        color: rgb(55, 101, 142);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    #competences > h1 {
+        text-align: center;
+        width: 15em;
+        border-top: solid 10px rgb(55, 101, 142);
+        margin-bottom: 0.5em;
+        padding: 1em;
+    
+    }
+    
+    #compbar {
+       display: flex;
+       justify-content: space-around;
+       text-align: left;
+       padding-bottom: 3em;
+    }
+    
+    #compbar  h5 {
+        padding: 5px 0 ;
+    }
+    
+    .progress {
+        width: 50em;
+    }
+     .cv {
+        margin-top: 1em;
+        margin-left: 15em;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+     }
+    
+     .cv > img {
+        width: 23em;
+        border-radius: 10px;
+        
+     }
+    
+     .cv > a {
+        text-decoration: none;
+        background-color: rgb(55, 101, 142);
+        color: aliceblue;
+        border-radius: 10px;
+        margin-top: 1em;
+        padding: 15px 20px 3px 20px;
+        text-align: justify;
+     }
+    
+    
+     #portfolio > h1 {
+        color: rgb(217, 228, 237);
+        width: 15em;
+        margin-bottom: 0.5em;
+        padding: 1em;
+        text-align: center;
+    }
+    
+     
+    
+     #portfolio {
+        background-color: black;
+        color: rgb(217, 228, 237);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+     }
+    
+     #portfolio a {
+        text-decoration: none;
+        background-color: rgb(55, 101, 142);
+        color: aliceblue;
+        border-radius: 10px;
+        padding: 10px 15px 10px 15px;
+        text-align: justify;
+        margin-top: 45rem;
+        
+     }
+    
+     #portfolio img {
+        border-bottom: 1px solid rgb(231, 229, 229);
+        padding-bottom: 15px;
+     }
+    
+     .card {
+        padding: 0.5rem;
+        margin: 50px 6rem;
+     }
+    
+     .portgrid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: minmax(100px, auto);
+     }
+    
+     #contact {
+        color:antiquewhite;
+        background-color: rgb(19, 18, 18);
+        padding-bottom: 4em;
+        padding-top: 3em;
+     }
+    
+     #contact h2 {
+        text-align: center;
+        padding-bottom: 1em;
+     }
+     #contact img {
+        width:2em;
+        margin-left: 1em;
+     }
+    
+     .contactlink {
+        display: flex;
+        justify-content: space-around;
+     }
+    
+     .mail {
+        width: 40em;
+     }
+    
+     .linkgit {
+        display: flex;
+        justify-content: center;
+     }
+  }
 
- #portfolio img {
-    border-bottom: 1px solid rgb(231, 229, 229);
-    padding-bottom: 15px;
- }
 
- .card {
-    padding: 0.5rem;
-    margin: 50px 6rem;
- }
+  /* computer */
 
- .portgrid {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: minmax(100px, auto);
- }
-
- #contact {
-    color:antiquewhite;
-    background-color: rgb(19, 18, 18);
-    padding-bottom: 4em;
-    padding-top: 3em;
- }
-
- #contact h2 {
-    text-align: center;
-    padding-bottom: 1em;
- }
- #contact img {
-    width:2em;
-    margin-left: 1em;
- }
-
- .contactlink {
-    display: flex;
-    justify-content: space-around;
- }
-
- .mail {
-    width: 40em;
- }
-
- .linkgit {
-    display: flex;
-    justify-content: center;
- }
+@media only screen and (min-width: 1350px) {
+    * {
+        scroll-padding-top: 2em;
+    }
+    
+    nav {
+        background-color: rgb(21, 3, 122);
+        height: 5em;
+        position: fixed;
+        top: 0;
+        width: 100%;
+        overflow: hidden;
+    
+    }
+    
+    nav  a {
+        text-decoration: none;
+        color: whitesmoke;
+        margin: 15px;
+    
+    }
+    
+    nav a:hover {
+        color: rgb(224, 206, 39);
+    }
+    
+    nav > img {
+        width: 4em;
+        margin-top: 0.5em;
+        margin-left: 1.5em;
+    }
+    
+    .navChoices {
+        margin-right: 2em;
+    }
+    
+    
+    
+    #intro {
+        background-image: url("/public/globe-line-code.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        display: flex;
+        height: 40em;
+        margin-top: 5em;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        color: beige;
+        
+    }
+    
+    #intro > h1 {
+        font-size: 3em;
+        margin-bottom: 1em;
+    }
+    
+    #presentation {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        color: rgb(55, 101, 142);
+        padding: 3em;
+        background-color: rgb(255, 255, 255);
+        width: 100%;
+        
+    }
+    
+    #presentation > p {
+        width: 50em;
+        text-align: left;
+        font-size: 20px;
+    }
+    
+    #presentation > h1 {
+        margin-bottom: 1em;
+    }
+    
+    
+    #competences {
+        color: rgb(55, 101, 142);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    #competences > h1 {
+        text-align: center;
+        width: 15em;
+        border-top: solid 10px rgb(55, 101, 142);
+        margin-bottom: 0.5em;
+        padding: 1em;
+    
+    }
+    
+    #compbar {
+       display: flex;
+       justify-content: space-around;
+       text-align: left;
+       padding-bottom: 3em;
+    }
+    
+    #compbar  h5 {
+        padding: 5px 0 ;
+    }
+    
+    .progress {
+        width: 50em;
+    }
+     .cv {
+        margin-top: 1em;
+        margin-left: 15em;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+     }
+    
+     .cv > img {
+        width: 23em;
+        border-radius: 10px;
+        
+     }
+    
+     .cv > a {
+        text-decoration: none;
+        background-color: rgb(55, 101, 142);
+        color: aliceblue;
+        border-radius: 10px;
+        margin-top: 1em;
+        padding: 15px 20px 3px 20px;
+        text-align: justify;
+     }
+    
+    
+     #portfolio > h1 {
+        color: rgb(217, 228, 237);
+        width: 15em;
+        margin-bottom: 0.5em;
+        padding: 1em;
+        text-align: center;
+    }
+    
+     
+    
+     #portfolio {
+        background-color: black;
+        color: rgb(217, 228, 237);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+     }
+    
+     #portfolio a {
+        text-decoration: none;
+        background-color: rgb(55, 101, 142);
+        color: aliceblue;
+        border-radius: 10px;
+        padding: 10px 15px 10px 15px;
+        text-align: justify;
+        margin-top: 45rem;
+        
+     }
+    
+     #portfolio img {
+        border-bottom: 1px solid rgb(231, 229, 229);
+        padding-bottom: 15px;
+     }
+    
+     .card {
+        padding: 0.5rem;
+        margin: 50px 6rem;
+     }
+    
+     .portgrid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: minmax(100px, auto);
+     }
+    
+     #contact {
+        color:antiquewhite;
+        background-color: rgb(19, 18, 18);
+        padding-bottom: 4em;
+        padding-top: 3em;
+     }
+    
+     #contact h2 {
+        text-align: center;
+        padding-bottom: 1em;
+     }
+     #contact img {
+        width:2em;
+        margin-left: 1em;
+     }
+    
+     .contactlink {
+        display: flex;
+        justify-content: space-around;
+     }
+    
+     .mail {
+        width: 40em;
+     }
+    
+     .linkgit {
+        display: flex;
+        justify-content: center;
+     }
+  }
