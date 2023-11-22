@@ -153,14 +153,19 @@ function HomePage() {
       <h2>Me contacter</h2>
       <div className="contactlink">
         <form ref={form} onSubmit={sendEmail}>
-      <label>Name</label>
-      <input type="text" name="user_name" />
-      <label>Email</label>
-      <input type="email" name="user_email" />
-      <label>Message</label>
-      <textarea name="message" />
-      <input type="submit" value="Send" />
-    </form>
+        
+            <label>Name</label>
+            <input type="text" name="user_name" />
+
+            <label>Email</label>
+            <input type="email" name="user_email" />
+
+            <label>Message</label>
+            <textarea name="message" />
+
+            <input type="submit" value="Send" />
+
+        </form>
         <div>
           <p>Vous pouvez également me retrouver sur les sites suivants !</p>
           
